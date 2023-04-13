@@ -8,14 +8,8 @@ import jakarta.persistence.Id;
 @Entity
 public class Quote {
 
-//    private @Id
-//    @GeneratedValue Long id;
-
-    //private @Id String symbol;
-
     private @Id
     @GeneratedValue Long id;
-
 
     private String symbol;
     private double open;
